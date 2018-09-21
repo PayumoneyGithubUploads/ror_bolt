@@ -3,7 +3,7 @@ Ruby on Rails PayUMony Bolt Checkout Integration Kit
 
 1. Create a new Ruby project as -
     
-    > rake new payu_bolt_ror
+    > rails new payu_bolt_ror
 
 2. Copy content of kit zip in 'payu_bolt_ror' directory/folder
 
