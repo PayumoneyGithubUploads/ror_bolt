@@ -1,0 +1,41 @@
+<div id="page-header">
+		<div class="page-wrap">
+			<div class="logo-wrapper">
+				<a href="http://www.payumoney.com/"> <img height="40"
+					src="<%=asset_path "payumoney.png"%>" alt="PayUmoney" />
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="page-client-logo">&#160;</div>
+	<div id="page-wrapper">
+		<div class="box-white">
+			<div class="page-content">
+<h3>PayUmoney Payment Response</h3>
+	
+	<ul class="form-wrapper add-merchant clearfix">
+			<li class="clearfix"> <label width="125px;">Merchant Key:</label> <%= @key %></li>
+			
+			<li class="clearfix"> <label width="125px;">Merchant Salt:</label> <%= @salt %></li>
+			
+			<li class="clearfix"> <label width="125px;">Order ID:</label> <%= @txnid %></li>
+		
+			<li class="clearfix"> <label width="125px;">Amount:</label> <%= @amount %></li>
+			
+			<li class="clearfix"> <label width="125px;">Product Info:</label> <%= @pinfo %>	</li>
+			
+			<li class="clearfix"> <label width="125px;">First Name:</label><%= @fname %></li>
+		
+			<li class="clearfix"> <label width="125px;">Email:</label><%= @email %></li>
+			
+			<li class="clearfix"> <label width="125px;">Hash:</label><%= @hash %></li>
+			
+			<li class="clearfix"><label width="125px;">Status:</label><%= @status %></li>
+			
+			<li class="clearfix"><label width="125px;">Message:</label><%= @msg %></li>
+		
+	</ul>
+</div>
+</div>
+</div>
